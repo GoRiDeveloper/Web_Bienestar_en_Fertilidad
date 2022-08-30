@@ -1,0 +1,53 @@
+body{
+    main{
+        .bannerInit{
+            background-color: url(../img/manosHome.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            .carousel{
+                background-color: gray;
+                width: 80%;
+                border-radius: 15px;
+                margin-top: 40px;
+                .carousel-inner{
+                    .carousel-item{
+                        padding-bottom: 30px;
+                        h6{
+                            color: $colorTitulos;
+                            padding: 20px;
+                            margin: 0px;
+                            text-align: center;
+                        }
+                    }
+                }
+                .carousel-indicators{
+                    margin-bottom: 10px;
+                    .buttonCarousel{
+                        border-radius: 100%;
+                        width: 10px;
+                        height: 10px;
+                        background-color: $colorRosaOscuro;
+                    }
+                }
+            }
+            .bannerSecond{
+                text-align: center;
+                margin-top: 80px;
+                h1, h4{
+                    font-family: $letraTitulos;
+                    color: $colorTitulos;
+                }
+                div{
+                    .buttonBannerSecond{
+                        background-color: $colorRosaBoton;
+                        border: 0px;
+                        border-radius: 15px;
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+}

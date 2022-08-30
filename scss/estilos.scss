@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+$colorRosaClaro: #F9E4EE;
+$colorRosaOscuro: #D988AE;
+$colorRosaBoton: #E8BAC9;
+$colorTitulos: #263238;
+$colorNegro: #000000;
+$letraTitulos: 'Libre Baskerville', serif;
+$letraTextos: 'Roboto', sans-serif;
+$tamañoTitulos: 50px;
+$tamañoSubTitulos: 35px;
+$tamañoTextos: 25px;
+
+@import "index";
+
+body{
+    color: $colorNegro;
+    font-family: $letraTextos;
+    header{
+        .navbar{
+            margin: 0px;
+            padding: 0px;
+            border-bottom: 1px solid $colorRosaOscuro;
+            .navInt{
+                margin: 0px 30px 0px 30px;
+                div{
+                    ul{
+                        li{
+                            margin: 0px 35px 0px 35px;
+                            .btn{
+                                background-color: $colorRosaBoton;
+                                border: 0px;
+                                border-radius: 15px;
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

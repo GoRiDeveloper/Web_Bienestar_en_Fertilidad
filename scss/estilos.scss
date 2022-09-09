@@ -6,6 +6,7 @@
 $colorRosaClaro: #F9E4EE;
 $colorRosaOscuro: #D988AE;
 $colorRosaBoton: #E8BAC9;
+$colorRosaFondo: #FFF8F8; 
 $colorTitulos: #263238;
 $colorNegro: #000000;
 $letraTitulos: 'Libre Baskerville', serif;
@@ -42,5 +43,32 @@ body{
                 }
             }
         }
+    }
+    footer{
+        background-color: $colorTitulos;
+        color: white;
+        font-family: $letraTextos;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        font-size: 0.7rem;
+        .footerUp{
+            .imgFooter{
+                display: flex;
+                img{
+                    margin: auto;
+                }
+            }
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            
+        }
+        
     }
 }

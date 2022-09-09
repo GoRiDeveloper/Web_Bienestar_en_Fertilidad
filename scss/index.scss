@@ -36,7 +36,7 @@ body{
             }
             .bannerSecond{
                 text-align: center;
-                margin-top: 100px;
+                margin-top: 70px;
                 margin-bottom: 40px;
                 h1, h4{
                     font-family: $letraTitulos;
@@ -71,7 +71,12 @@ body{
 
         .contentsA{
             text-align: center;
-            margin-top: 50px;
+            background-image: url(../img/degrade_rosa_fondo_home.png);
+            background-repeat: no-repeat;
+            // background-size: cover;
+            background-size: contain;
+            background-position-x: center;
+            background-position-y: bottom;
             .textTop{
                 h2{
                     font-family: $letraTitulos;
@@ -83,20 +88,103 @@ body{
                     border-radius: 20px;
                     color: white;
                     padding: 5px 17px 5px 17px;
-                    margin: 20px;
+                    // margin: 20px;
                 }
             }
-            .picture{
-                border: 1px solid;
+            .imgRemaster{
+                border-radius: 8px;
+                width: 85%;
             }
             .textBottom{
                 h2{
                     font-family: $letraTitulos;
                     color:$colorTitulos;
                 }
+                p{
+                    text-align: start;
+                }
             }
             
             
+        }
+        .contentB{
+            background-image: url(../img/porque_acompañamiento.png);
+            background-repeat: no-repeat;
+            // background-size: contain;
+            background-size: 60%;
+            background-position-x: right;
+            // background-position-y: bottom;
+            background-position-y: 250px;
+            p{
+                margin-bottom: 60px;
+            }
+            .space{
+                height: 400px;
+            }
+        }
+        .foundContentC{
+            background-image: url(../img/fondo_como_funciona.png );
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position-x: center;
+                background-position-y: top;
+                background-color: $colorRosaFondo;
+            .contentC{
+                h2, h4{
+                    font-family: $letraTitulos;
+                }
+                .btnContentC{
+                    display: flex;
+                    justify-content: center;
+                    .btn{
+                        background-color: $colorRosaOscuro;
+                        border: 0px;
+                        border-radius: 20px;
+                        color: white;
+                        padding: 5px 17px 5px 17px;
+                    }
+                }  
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        main{
+            .contentsA{
+                margin: 0px !important;
+                .textTop{
+                    order: 1;
+                }
+                .picture{
+                    order:0;
+                }
+                .textBottom{
+                    order:2;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px){
+    body{
+        main{
+            .contentB{
+                .space{
+                    display: none;
+                }
+            }
+            .foundContentC{
+                .contentC{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        margin: auto;
+                    }
+                }
+            }
         }
     }
 }

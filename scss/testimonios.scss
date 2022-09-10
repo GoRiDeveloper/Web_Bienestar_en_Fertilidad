@@ -1,0 +1,256 @@
+body {
+
+    .main__testimonios {
+
+        flex-grow: 1;
+        max-width: 100vw;
+
+        .container-fluid {
+
+            .container--testimonios {
+
+                display: flex;
+                justify-content: center;
+                background-image: url("../img/manos-testimonios.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                margin-bottom: 75px;
+
+                .testimonios__title {
+
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    font-size: $tamañoTitulos;
+                    font-family: $letraTitulos;
+                    margin: 420px 0 100px;
+
+                }
+
+                div {
+
+                    .container {
+
+                        min-width: 1150px !important;
+                        width: 100% !important;
+
+                        .carousel-inner {
+
+                            .carousel-item {
+
+                                .carousel-caption {
+
+                                    width: 300px;
+                                    top: 20%;
+                                    left: 36%;
+
+                                    h5 {
+
+                                        font-family: $letraTitulos;
+
+                                    }
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                .carusel2 {
+
+                    display: none;
+
+                }
+
+                .trans-50 {
+
+                    transform: translateX(50%);
+
+                }
+
+                .w-45 {
+
+                    width: 45% !important;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .container--media {
+
+        right: 100px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .container--media {
+
+        right: 150px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 784px) {
+
+    .container--media {
+
+        right: 220px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    
+    .container--media {
+
+        right: 235px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    
+    body { 
+        
+        .main__testimonios { 
+            
+            .container-fluid { 
+                
+                .container--testimonios { 
+                    
+                    div { 
+                        
+                        .container { 
+
+                            min-width: 500px !important;
+                            right: unset !important;
+                            padding-left: 0 !important;
+
+                            .carousel-inner { 
+                                
+                                .carousel-item { 
+                                    
+                                    .carousel-caption { 
+
+                                        width: 100px;
+                                        left: 38%;
+                                        
+                                        h5 {
+
+                                            font-size: .4rem;
+
+                                        }
+
+                                    }
+
+                                } 
+
+                            }
+
+                        }
+
+                    } 
+
+                } 
+
+            } 
+
+        } 
+
+    }
+
+    .carusel1 {
+
+        display: none;
+
+    }
+
+    .carusel2 {
+
+        display: block !important;
+
+        #carouselExampleDark2 {
+
+            .carousel-inner2 {
+
+                .carousel-item2 {
+
+                    .carousel-caption2 {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        right: unset;
+                        left: unset;
+
+                        h5 {
+
+                            width: 50%;
+                            font-size: .99rem;
+                            font-family: $letraTitulos;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+    
+    .carusel2 {
+
+        #carouselExampleDark2 {
+
+            .carousel-inner2 {
+
+                .carousel-item2 {
+
+                    .carousel-caption2 {
+
+                        padding-top: 35px;
+
+                        h5 {
+
+                            font-size: .59rem;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

@@ -88,7 +88,7 @@ body{
                     border-radius: 20px;
                     color: white;
                     padding: 5px 17px 5px 17px;
-                    // margin: 20px;
+                    //margin: 20px;
                 }
             }
             .imgRemaster{
@@ -105,8 +105,8 @@ body{
                 }
             }
             
-            
         }
+
         .contentB{
             background-image: url(../img/porque_acompañamiento.png);
             background-repeat: no-repeat;
@@ -150,6 +150,7 @@ body{
     }
 }
 
+
 @media screen and (max-width: 768px){
     body{
         main{
@@ -168,6 +169,7 @@ body{
         }
     }
 }
+
 @media screen and (max-width: 576px){
     body{
         main{

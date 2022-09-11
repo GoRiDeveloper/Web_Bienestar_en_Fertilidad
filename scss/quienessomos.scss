@@ -1,0 +1,117 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    header {
+
+        font-family: $letraTextos;
+        min-height: 9vh;        
+
+    }
+
+    .main__quienessomos {
+
+        flex-grow: 1;
+        background-image: url("../img/Vector-10.png");
+        background-size: 98.72vw 100%;
+        background-position-y: 65px;
+        background-repeat: no-repeat;
+        height: 100%;
+
+        .title--quienessomos {
+
+            font-family: $letraTitulos;
+
+        }
+
+        .article {
+
+            .div--imgCV {
+
+                position: relative;
+                bottom: 50px;
+
+            }
+
+            .div--imgCV1 {
+
+                padding-left: 15px;
+
+            }
+
+        }
+
+        .subtitle--quienessomos--resp {
+
+            display: none;
+            font-family: $letraTitulos;
+
+        }
+
+        .subtitle--quienessomos {
+
+            position: relative;
+            width: 200px;
+            bottom: 200px;
+            font-family: $letraTitulos;
+
+        }
+
+        .p--quienessomos {
+
+            font-family: $letraTextos;
+
+        }
+
+    }
+
+    footer {
+
+        min-height: 9vh;
+        background-color: aqua;
+    
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .subtitle--quienessomos {
+
+        bottom: 100px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    
+    .article--mqMD {
+
+        flex-direction: column-reverse;
+
+    }
+
+    .div--imgCV {
+
+        display: flex;
+        justify-content: center;
+        bottom: 0 !important;
+
+    }
+
+    .subtitle--quienessomos--resp{
+
+        display: flex !important;
+
+    }
+
+    .subtitle--quienessomos {
+
+        display: none;
+
+    }
+
+}

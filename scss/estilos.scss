@@ -6,7 +6,7 @@
 $colorRosaClaro: #F9E4EE;
 $colorRosaOscuro: #D988AE;
 $colorRosaBoton: #E8BAC9;
-$colorRosaFondo: #FFF8F8; 
+$colorRosaFondo: #FFF8F8;
 $colorTitulos: #263238;
 $colorNegro: #000000;
 $letraTitulos: 'Libre Baskerville', serif;
@@ -16,11 +16,16 @@ $tamañoSubTitulos: 35px;
 $tamañoTextos: 25px;
 
 @import "index";
+@import "quienessomos";
+@import "talleres";
+@import "testimonios";
 
 body{
     color: $colorNegro;
     font-family: $letraTextos;
+    overflow-x: hidden;
     header{
+        z-index: 10;
         .navbar{
             margin: 0px;
             padding: 0px;
@@ -32,6 +37,17 @@ body{
                     ul{
                         li{
                             margin: 0px 35px 0px 35px;
+                            .dropmenu--position{
+
+                                border: 1px solid $colorRosaOscuro;
+                                left: 57%;
+
+                            }
+                            .dropdown-divider{
+
+                                color: $colorRosaOscuro;
+
+                            }
                             .btn{
                                 background-color: $colorRosaBoton;
                                 border: 0px;
@@ -44,6 +60,7 @@ body{
             }
         }
     }
+
     footer{
         background-color: $colorTitulos;
         color: white;
@@ -71,4 +88,15 @@ body{
         }
         
     }
+
+}
+
+@media screen and (max-width: 1125px) {
+    
+    .dropmenu--position{
+
+        left: 49% !important;
+
+    }
+
 }

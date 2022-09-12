@@ -17,8 +17,10 @@ $tamañoTextos: 25px;
 
 @import "index";
 @import "quienessomos";
+@import "contactar";
 @import "talleres";
 @import "testimonios";
+
 
 body{
     color: $colorNegro;
@@ -65,7 +67,7 @@ body{
         background-color: $colorTitulos;
         color: white;
         font-family: $letraTextos;
-        padding-top: 50px;
+        padding-top: 40px;
         font-size: 0.8rem;
         .footerUp{
             .imgFooter{
@@ -84,13 +86,6 @@ body{
                     }
                 }
             
-        }
-        .footerDown{
-            .text-end{
-                img{
-                    // opacity: 0.5
-                }
-            }
         }
         
     }

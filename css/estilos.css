@@ -44,7 +44,8 @@ body main .bannerInit {
       border-radius: 20px;
       color: white;
       padding: 5px 17px 5px 17px;
-      margin: 5px 30px 0px 30px; }
+      margin: 5px 30px 0px 30px;
+      text-decoration: none; }
       body main .bannerInit .bannerSecond .ButtonsBannerSecond .buttonBannerSecond1 i {
         padding-left: 5px; }
     body main .bannerInit .bannerSecond .ButtonsBannerSecond .buttonBannerSecond2 {
@@ -53,7 +54,8 @@ body main .bannerInit {
       border-radius: 20px;
       color: white;
       padding: 5px 15px 5px 15px;
-      margin: 5px 30px 0px 30px; }
+      margin: 5px 30px 0px 30px;
+      text-decoration: none; }
       body main .bannerInit .bannerSecond .ButtonsBannerSecond .buttonBannerSecond2 i {
         padding-left: 5px; }
 
@@ -192,6 +194,36 @@ body {
     display: flex !important; }
   .subtitle--quienessomos {
     display: none; } }
+
+.contact {
+  background-color: #FFF8F8; }
+  .contact div .title {
+    margin-top: 100px;
+    margin-bottom: 20px; }
+  .contact div .gradient {
+    background: linear-gradient(90deg, #FEB0C3, #F2C7DB, #FFC9C9);
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 60px 0px 20px 0px; }
+    .contact div .gradient form .formu {
+      background-color: rgba(255, 255, 255, 0.377); }
+      .contact div .gradient form .formu .form-control {
+        background-color: rgba(255, 255, 255, 0.377);
+        color: white; }
+        .contact div .gradient form .formu .form-control::placeholder {
+          color: white; }
+      .contact div .gradient form .formu .btn {
+        background-color: #69868A;
+        color: white; }
+  .contact div .contact2 {
+    background-color: #F9E4EE;
+    border-radius: 10px; }
+    .contact div .contact2 p a {
+      text-decoration: none;
+      color: #000000; }
 
 body header .active--talleres {
   color: rgba(0, 0, 0, 0.9) !important; }
@@ -825,7 +857,7 @@ body {
     background-color: #263238;
     color: white;
     font-family: "Roboto", sans-serif;
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 0.8rem; }
     body footer .footerUp .imgFooter {
       display: flex; }

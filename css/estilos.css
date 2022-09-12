@@ -279,7 +279,7 @@ body .main__talleres {
     width: 100vw;
     height: 180vh;
     background-image: url("../img/fondo-oscuro.png");
-    background-size: 100vw 100%;
+    background-size: 100vw 100.1%;
     background-repeat: no-repeat; }
     body .main__talleres .content--contenidos .contenidos {
       height: 100%; }
@@ -798,10 +798,11 @@ body {
       body header .navbar .navInt {
         margin: 0px 30px 0px 30px; }
         body header .navbar .navInt div ul li {
+          position: relative;
           margin: 0px 35px 0px 35px; }
           body header .navbar .navInt div ul li .dropmenu--position {
             border: 1px solid #D988AE;
-            left: 57%; }
+            top: 50px; }
           body header .navbar .navInt div ul li .dropdown-divider {
             color: #D988AE; }
           body header .navbar .navInt div ul li .btn {
@@ -825,7 +826,3 @@ body {
       body footer .footerUp ul li a {
         text-decoration: none;
         color: white; }
-
-@media screen and (max-width: 1125px) {
-  .dropmenu--position {
-    left: 49% !important; } }

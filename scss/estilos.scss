@@ -66,8 +66,7 @@ body{
         color: white;
         font-family: $letraTextos;
         padding-top: 50px;
-        padding-bottom: 40px;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         .footerUp{
             .imgFooter{
                 display: flex;
@@ -85,6 +84,13 @@ body{
                     }
                 }
             
+        }
+        .footerDown{
+            .text-end{
+                img{
+                    // opacity: 0.5
+                }
+            }
         }
         
     }

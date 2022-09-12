@@ -7,7 +7,6 @@ body {
     header {
 
         font-family: $letraTextos;
-        min-height: 9vh;        
 
     }
 
@@ -15,13 +14,14 @@ body {
 
         flex-grow: 1;
         background-image: url("../img/Vector-10.png");
+        background-color: $colorRosaFondo;
         background-size: 98.72vw 100%;
         background-position-y: 65px;
         background-repeat: no-repeat;
         height: 100%;
 
         .title--quienessomos {
-
+            margin-top: 100px;
             font-family: $letraTitulos;
 
         }

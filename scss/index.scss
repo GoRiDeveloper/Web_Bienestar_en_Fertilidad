@@ -111,15 +111,15 @@ body{
             background-image: url(../img/porque_acompañamiento.png);
             background-repeat: no-repeat;
             // background-size: contain;
-            background-size: 60%;
+            background-size: 50%;
             background-position-x: right;
-            // background-position-y: bottom;
-            background-position-y: 250px;
+            background-position-y: bottom;
+            // background-position-y: 170px;
             p{
                 margin-bottom: 60px;
             }
             .space{
-                height: 400px;
+                height: 330px;
             }
         }
         .foundContentC{
@@ -132,6 +132,9 @@ body{
             .contentC{
                 h2, h4{
                     font-family: $letraTitulos;
+                }
+                img{
+                    object-fit: cover;
                 }
                 .btnContentC{
                     display: flex;
@@ -186,6 +189,24 @@ body{
                         margin: auto;
                     }
                 }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .carousel{
+        height: 170px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    body{
+        main{
+            .contentB{
+                background-size: 30%;
             }
         }
     }

@@ -237,7 +237,7 @@ body header .dropactive {
 
 body header .dropactive--none:active {
   background-color: #F9E4EE;
-  color: #000; }
+  color: black; }
 
 body .main__talleres {
   flex-grow: 1;

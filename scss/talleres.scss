@@ -63,7 +63,9 @@ body {
 
             padding-right: 0 !important;
             padding-left: 0 !important;
-            width: 102vw;
+            max-width: 100vw;
+            width: 100vw;
+            overflow: hidden;
 
             h2 {
 
@@ -568,7 +570,7 @@ body {
 
             position: relative;
             background-image: url("../img/fondo-oscuro.png");
-            background-size: 99vw 100%;
+            background-size: 100vw 100%;
             background-repeat: no-repeat;
             height: 150vh;
             transform: scaleY(-1);
@@ -577,7 +579,7 @@ body {
             .clinicas {
 
                 background-image: url("../img/Rectangle-36.png");
-                background-size: 99vw 100%;
+                background-size: 100vw 100%;
                 background-repeat: no-repeat;
                 height: 100%;
                 transform: scaleY(-1);

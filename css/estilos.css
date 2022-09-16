@@ -253,7 +253,9 @@ body .main__talleres {
   body .main__talleres .content--objetivos {
     padding-right: 0 !important;
     padding-left: 0 !important;
-    width: 102vw; }
+    overflow: hidden;
+    max-width: 100vw;
+    width: 100vw; }
     body .main__talleres .content--objetivos h2 {
       margin-left: 3.8rem !important; }
       body .main__talleres .content--objetivos h2 .elipse--degr {
@@ -470,14 +472,14 @@ body .main__talleres {
   body .main__talleres .content--clinicas {
     position: relative;
     background-image: url("../img/fondo-oscuro.png");
-    background-size: 99vw 100%;
+    background-size: 100vw 100%;
     background-repeat: no-repeat;
     height: 150vh;
     transform: scaleY(-1);
     z-index: 1; }
     body .main__talleres .content--clinicas .clinicas {
       background-image: url("../img/Rectangle-36.png");
-      background-size: 99vw 100%;
+      background-size: 100vw 100%;
       background-repeat: no-repeat;
       height: 100%;
       transform: scaleY(-1); }

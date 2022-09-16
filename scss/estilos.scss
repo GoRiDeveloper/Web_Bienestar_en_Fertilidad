@@ -38,11 +38,12 @@ body{
                 div{
                     ul{
                         li{
+                            position: relative;
                             margin: 0px 35px 0px 35px;
                             .dropmenu--position{
 
                                 border: 1px solid $colorRosaOscuro;
-                                left: 57%;
+                                top: 50px;
 
                             }
                             .dropdown-divider{
@@ -88,16 +89,6 @@ body{
             
         }
         
-    }
-
-}
-
-@media screen and (max-width: 1125px) {
-    
-    .dropmenu--position{
-
-        left: 49% !important;
-
     }
 
 }
